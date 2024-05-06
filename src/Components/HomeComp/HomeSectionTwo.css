@@ -1,0 +1,291 @@
+
+
+.homeSectionTwo{
+    padding: 20px 10%;
+    padding-top: 40px;
+    
+}
+
+
+.featuredDiv{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    
+}
+
+.featuredDiv h2{
+    font-size: 30px;
+}
+
+.featuredDiv p{
+    margin-left: auto;
+    
+}
+
+.listClass{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+.listClass li{
+    list-style: none;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+/* .numberSup{
+    color: red;
+} */
+
+/* .listClass li:hover{
+    color: green;
+} */
+
+.allFuniture{
+    margin-left: auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+.furnarrow{
+    color: orange;
+}
+.allFuniture:hover{
+    color: orange;
+}
+/* .listClass li:hover{
+    color: green;
+} */
+
+
+
+.activeList{
+    color: orange;
+    border-bottom: 1px solid orange;
+    font-size: 15px;
+}
+
+.activeList:hover{
+    color: orange;
+}
+
+.activeList sup{
+        color: red;
+}
+
+
+
+.productDiv{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+.eachProduct{
+    position: relative;
+    cursor: pointer;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+
+
+
+.eachProduct h2{
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.cartDiv{
+    display: flex;
+}
+
+.cartDiv h2{
+    font-size: 15px;
+    color: orange;
+}
+
+.cartDiv button{
+    margin-left: auto;
+    padding: 10px 30px;
+    font-size: 13px;
+    border: solid gainsboro 1px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+
+
+.cartDiv button:hover{
+    background-color: orange;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+
+.starDiv{
+    display: flex;
+    align-items: center;
+    color: orange;
+    gap: 5px;
+    padding: 10px 0;
+}
+
+.showDisplayIcons{
+    display: block;
+}
+
+.displayIcons{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    display: none;
+}
+
+
+
+
+.eachProduct:hover, .displayIcons{
+    transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.displayIcons div{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* BANNER SECTION FIVE */
+
+.bansection{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+
+.banDivOne{
+    width: 100%;
+    position: relative;
+    
+    
+}
+
+.banImage{
+    width: 100%;
+}
+
+
+.banDivOneText{
+    position: absolute;
+    top: 70px;
+    left: 10%;
+    text-align: left;
+    color: black;
+}
+
+.banDivOneText h4{
+    font-size: 20px;
+}
+
+.banDivOneText h2{
+    font-size: 40px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.banDivOneText p{
+    font-size: 18px;
+    padding: 20px 0;
+    
+}
+
+.banDivOneText button{
+    font-size: 15px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    align-items: left;
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+}
+
+
+.banDivOneText button:hover{
+    background-color: black;
+    transition: all 0.2s ease;
+    transform: scale(1.09);
+}
+
+
+.banDivTwo{
+ position: relative;
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ border-radius: 5px;
+ 
+}
+
+
+.banDivTwoText{
+    position: absolute;
+    top: 70px;
+    left: 10%;
+    text-align: left;
+    color: black;
+    
+}
+
+.banDivTwoText h4{
+    font-size: 20px;
+}
+
+.banDivTwoText h2{
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.banDivTwoText p{
+    font-size: 15px;
+    padding: 20px 0px;
+    
+}
+
+.banDivTwoText button{
+    margin-top: 10px;
+    font-size: 15px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    align-items: left;
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+
+.banDivTwoText button:hover{
+    background-color: black;
+    transition: all 0.2s ease;
+    transform: scale(1.09);
+}
+
