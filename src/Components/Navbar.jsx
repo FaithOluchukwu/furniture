@@ -46,6 +46,7 @@ const Navbar = () => {
         <div>
             <div className='myNavBar'>
                 <div className='topNav'>
+                        <p>Welcome to Our Organic Store</p>
                     <ul>
                         <li><IoMailUnreadOutline />groshop@gmail.com</li>
                         <li><MdOutlineLocationOn />Washington, New York City</li>
