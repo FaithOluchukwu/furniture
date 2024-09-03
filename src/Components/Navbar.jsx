@@ -123,11 +123,12 @@ const Navbar = () => {
                             <p><IoCallOutline /></p>
                         </div>
 
-                        <div className='bottomNavContact'>
+                        
+                    </div>
+                    <div className='bottomNavContact'>
                             <p className='menu' onClick={handleShowSideBar}><CgMenuGridO /></p>
                         </div>
                         <p className='menu2' onClick={handleShowSideBar}><CgMenuGridO /></p>
-                    </div>
                 </div>
             </div>
 

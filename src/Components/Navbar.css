@@ -276,13 +276,17 @@
     .bottomNavRight {
         display: none;
     }
-
+    
+    .bottomNavContact{
+        flex-direction: column;
+        padding: 0;
+        margin-left: auto;
+    }
     .menu2 {
-        display: block;
+        display: none;
         margin-left: auto;
         padding: 20px;
         background-color: orange;
-        display: flex;
         align-items: center;
         justify-content: center;
         color: white;
