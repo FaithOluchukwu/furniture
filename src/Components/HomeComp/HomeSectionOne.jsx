@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client'
 import Image from 'next/image'
 import React, { useState } from 'react'
@@ -189,7 +190,7 @@ const HomeSectionOne = () => {
             <div className='banerDivOneText'>
               <h4>UP TO  <span className='textChange'>20% OFF</span></h4>
               <h2>Modern & Minimal</h2>
-              <p>Don’t miss the saving opportunity</p>
+              <p>Dont miss the saving opportunity</p>
               <button>Shop Now <FaLongArrowAltRight /> </button>
             </div>
           </div>
@@ -200,7 +201,7 @@ const HomeSectionOne = () => {
             <div className='banerDivTwoText'>
               <h4>UP TO <span className='textChange'>20% OFF</span></h4>
               <h2>Modern & Minimal</h2>
-              <p>Don’t miss the saving opportunity</p>
+              <p>Dont miss the saving opportunity</p>
               <button>Shop Now <FaLongArrowAltRight /> </button>
             </div>
           </div>
@@ -213,7 +214,7 @@ const HomeSectionOne = () => {
             <div className='bannerDivThreeText'>
               <h4>UP TO  <span className='textChange'>20% OFF</span></h4>
               <h2>New Sofa Collections</h2>
-              <p>Don't miss the saving opportunity</p>
+              <p>Dont miss the saving opportunity</p>
               <button>Shop Now <FaLongArrowAltRight /> </button>
             </div>
           </div>
