@@ -1,33 +1,31 @@
-
-.myNavBar{
+.myNavBar {
     position: fixed;
     padding: 20px 10%;
     z-index: 100;
-
+    width: 100%;
 }
-.topNav{
-    /* padding: 20px 10%; */
+
+.topNav {
     display: flex;
 }
 
-.topNav ul{
+.topNav ul {
     margin-left: auto;
     display: flex;
     gap: 20px;
 }
 
-.topNav ul li{
+.topNav ul li {
     list-style: none;
     padding-right: 20px;
-    border-right: solid red 1px ;
+    border-right: solid red 1px;
     align-items: center;
     display: flex;
     gap: 8px;
     font-size: 14px;
 }
 
-
-.bottomNav{
+.bottomNav {
     display: flex;
     align-items: center;
     padding: 0 20px;
@@ -35,44 +33,38 @@
     background-color: rgb(220, 220, 220);
     margin-top: 20px;
     border-radius: 10px;
-    /* margin: 20px 10%; */
-    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
-    
+    width: 100%;
 }
 
-
-.bottomNavRight{
+.bottomNavRight {
     display: flex;
     gap: 30px;
     margin-left: auto;
     align-items: center;
     font-size: 16px;
-    
 }
 
-.bottomNavRight span{
+.bottomNavRight span {
     color: orange;
 }
 
-.bottomNav ul{
+.bottomNav ul {
     display: flex;
     gap: 20px;
     align-items: center;
     padding-left: 40px;
 }
 
-
-.bottomNav ul li{
+.bottomNav ul li {
     list-style: none;
     cursor: pointer;
 }
 
-
-.blogDrop{
+.blogDrop {
     position: relative;
 }
 
-.blogDropDown{
+.blogDropDown {
     position: absolute;
     top: 20px;
     left: 0;
@@ -80,15 +72,14 @@
     padding: 20px;
     width: 150px;
     border-radius: 5px;
-    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
     display: none;
 }
 
-.blogDrop:hover .blogDropDown{
+.blogDrop:hover .blogDropDown {
     display: block;
 }
 
-.blogDropDown p{
+.blogDropDown p {
     margin-bottom: 10px;
     padding-bottom: 5px;
     cursor: pointer;
@@ -96,22 +87,17 @@
     font-size: 14px;
 }
 
-.blogDropDown p:hover{
+.blogDropDown p:hover {
     padding-left: 10px;
     color: rgb(8, 95, 8);
     transition: all ease-in-out 0.3s;
 }
 
-
-
-
-
-
-.blogDrop2{
+.blogDrop2 {
     position: relative;
 }
 
-.blogDropDown2{
+.blogDropDown2 {
     position: absolute;
     top: 20px;
     left: 0;
@@ -119,15 +105,14 @@
     padding: 20px;
     width: 180px;
     border-radius: 5px;
-    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
     display: none;
 }
 
-.blogDrop2:hover .blogDropDown2{
+.blogDrop2:hover .blogDropDown2 {
     display: block;
 }
 
-.blogDropDown2 p{
+.blogDropDown2 p {
     margin-bottom: 10px;
     padding-bottom: 5px;
     cursor: pointer;
@@ -135,17 +120,17 @@
     font-size: 14px;
 }
 
-.blogDropDown2 p:hover{
+.blogDropDown2 p:hover {
     padding-left: 10px;
     color: rgb(8, 95, 8);
     transition: all ease-in-out 0.3s;
 }
 
-.pageDrop{
+.pageDrop {
     position: relative;
 }
 
-.pageDropDown{
+.pageDropDown {
     position: absolute;
     top: 20px;
     left: 0;
@@ -156,38 +141,32 @@
     display: none;
 }
 
-
-.pageDrop:hover .pageDropDown{
+.pageDrop:hover .pageDropDown {
     display: block;
     display: flex;
     align-items: center;
     gap: 50px;
 }
 
-.pageDropDown p{
+.pageDropDown p {
     margin-bottom: 10px;
     cursor: pointer;
     font-size: 14px;
-    
 }
-.pageDropDown p:hover{
+
+.pageDropDown p:hover {
     padding-left: 10px;
     color: green;
     transition: all ease-in-out 0.1s;
 }
-.bottomNavIcons{
+
+.bottomNavIcons {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-/* .bottomNavContact{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-} */
-
-.menu{
+.menu {
     background-color: orange;
     color: white;
     font-size: 50px;
@@ -195,15 +174,13 @@
     align-items: center;
     display: flex;
     padding: 10px;
-    border-radius: 0  10px 10px 0;
+    border-radius: 0 10px 10px 0;
     cursor: pointer;
 }
 
-
-
 /* =========== Side Bar ============== */
 
-.sideBar{
+.sideBar {
     position: fixed;
     right: 0;
     top: 0;
@@ -215,26 +192,23 @@
     z-index: 100;
 }
 
-
-.closeDiv{
+.closeDiv {
     display: flex;
     align-items: center;
-    
 }
 
-.closeDiv p{
+.closeDiv p {
     margin-left: auto;
     font-size: 20px;
     cursor: pointer;
 }
 
-
-.aboutDiv .myP{
+.aboutDiv .myP {
     padding-top: 20px;
     font-size: 13px;
 }
 
-.aboutDiv button{
+.aboutDiv button {
     margin: 20px 0;
     background-color: rgb(65, 157, 65);
     color: white;
@@ -244,57 +218,66 @@
     border-radius: 5px;
 }
 
-
-.contactDiv{
+.contactDiv {
     padding-top: 30px;
 }
 
-.contactP{
+.contactP {
     color: rgb(65, 157, 65);
     font-size: 13px;
 }
 
-.iconDiv{
+.iconDiv {
     display: flex;
     align-items: center;
     gap: 20px;
     padding-top: 20px;
 }
 
-
-.iconDiv p{
+.iconDiv p {
     color: orange;
     cursor: pointer;
 }
 
-
-.pointer{
+.pointer {
     position: fixed;
     top: 90vh;
     right: 40px;
     font-size: 20px;
 }
 
-
-.menu2{
+.menu2 {
     display: none;
 }
 
+/* =========== Responsive Design ============== */
 
-@media only screen and (min-width:320px) and (max-width:768px){
-    .topNav{
+@media only screen and (max-width: 1024px) {
+    .topNav ul {
+        gap: 10px;
+    }
+
+    .bottomNavRight {
+        gap: 15px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .topNav {
         display: none;
     }
 
-    .bottomNav{
-        margin: 0;
+    .bottomNav {
+        flex-direction: column;
+        padding: 0;
     }
 
-    .bottomNavRight{
+    .bottomNavRight {
         display: none;
     }
 
-    .menu2{
+    .menu2 {
         display: block;
         margin-left: auto;
         padding: 20px;
@@ -306,10 +289,49 @@
         font-size: 25px;
     }
 
-
-    .logo{
-        width: 100px;
-        height: 30px;
+    .bottomNav ul {
+        flex-direction: column;
+        padding: 0;
     }
 
+    .bottomNav ul li {
+        padding-right: 0;
+        border-right: none;
+        text-align: center;
+    }
+
+    .blogDropDown,
+    .blogDropDown2,
+    .pageDropDown {
+        width: 100%;
+    }
+
+    .logo {
+        width: 80px;
+        height: 25px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .myNavBar {
+        padding: 10px 5%;
+    }
+
+    .bottomNav {
+        margin-top: 10px;
+        padding: 10px 5%;
+    }
+
+    .menu2 {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .bottomNav ul {
+        gap: 10px;
+    }
+
+    .bottomNav ul li {
+        font-size: 12px;
+    }
 }
