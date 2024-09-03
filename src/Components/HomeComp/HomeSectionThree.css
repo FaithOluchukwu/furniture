@@ -200,6 +200,7 @@
 @media (max-width: 768px) {
     .bannerThreeSection h2{
         display: none;
+       
     }
     .bannerThreeSection h4{
         display: none;
