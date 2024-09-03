@@ -1,14 +1,13 @@
 .firstSectionMain{
     position: relative;
 }
-
+/* Base styles from your provided code */
 .firstSectionDiv{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-
 
 .leftAndRightDiv{
     display: flex;
@@ -17,31 +16,25 @@
     margin-top: 30px;
 }
 
-
 .leftSectionOne{
     width: 60%;
 }
-
 
 .leftSectionOne h2{
     font-size: 50px;
 }
 
-
 .furnDesign{
     border-bottom: 3px solid rgb(33, 146, 33);
     width: fit-content;
     color: rgb(33, 146, 33);
-
 }
-
 
 .leftSectionOne p{
     padding: 20px 0;
     font-size: 14px;
     line-height: 25px;
 }
-
 
 .leftSectionOne button{
     padding: 15px 40px;
@@ -57,9 +50,7 @@
     gap: 10px;
 }
 
-
 .rightSectionOne{
-    
     width: 100%;
 }
 
@@ -68,7 +59,6 @@
     width: 100%;
     height: 100%;
 }
-
 
 .dotDiv{
     position: absolute;
@@ -82,6 +72,8 @@
 .dotDiv p{
     cursor: pointer;
 }
+
+
 
 /* ============ SectionOne two ==== */
 .categorySection{
@@ -313,3 +305,147 @@
     transform: scale(1.09);
 }
 
+/* Responsive styling for mobile devices */
+@media (max-width: 768px) {
+    .firstSectionDiv {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .leftAndRightDiv {
+        flex-direction: column;
+        padding: 20px 5%;
+        margin-top: 0;
+    }
+
+    .leftSectionOne {
+        width: 100%;
+        text-align: center;
+    }
+
+    .leftSectionOne h2 {
+        font-size: 36px;
+        display: none;
+    }
+
+    .leftSectionOne p {
+        font-size: 16px;
+        line-height: 28px;
+        
+    }
+
+    .leftSectionOne button {
+        padding: 12px 30px;
+        font-size: 14px;
+        margin: 20px auto;
+    }
+
+    .rightSectionOne {
+        width: 100%;
+    }
+
+    .images {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    /* Ensure .dotDiv and .dotDiv p appear on mobile */
+    /* .dotDiv {
+        position: relative;
+        right: 0;
+        top: 0;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .dotDiv p {
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+    } */
+}
+/* Responsive styling for mobile devices */
+@media (max-width: 768px) {
+    .categorySection {
+        padding: 20px 5%;
+    }
+
+    .categoryDiv {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .eachCategory {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .eachCategory div {
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    .eachCategory p {
+        font-size: 16px;
+    }
+
+    .eachCategory:hover {
+        background-color: orange;
+        color: white;
+    }
+}
+/* Responsive styling for mobile devices */
+@media (max-width: 768px) {
+    .bannerSection {
+        flex-direction: column;
+        padding: 10px 5%;
+        gap: 10px;
+    }
+
+    .banerDivOneText,
+    .banerDivTwoText {
+        position: static;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .banerDivOneText h2,
+    .banerDivTwoText h2 {
+        font-size: 28px;
+        padding-top: 5px;
+    }
+
+    .banerDivOneText h4,
+    .banerDivTwoText h4 {
+        font-size: 18px;
+    }
+
+    .banerDivOneText p,
+    .banerDivTwoText p {
+        font-size: 14px;
+    }
+
+    .banerDivOneText button,
+    .banerDivTwoText button {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .bannerDivOne,
+    .bannerDivTwo {
+        width: 100%;
+    }
+
+    .bannImage {
+        height: auto;
+    }
+}
+
+@media (max-width: 768px){
+    .bannerSectionThree{
+        display: none;
+    }
+}

@@ -79,7 +79,7 @@ const Footer = () => {
        <div className='footerpaymentsection'>
         
        <div className='footerSubDiv'>
-              <p><LuCopyright /> All rights reserved Made by <span>ThemeTags</span></p>
+              <p><LuCopyright /> All rights reserved Made by <span>Faith</span></p>
           
                       <div className='logoDiv'>
                             <Image src={logo} alt='' width={170}/>

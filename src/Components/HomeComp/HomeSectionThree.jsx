@@ -14,7 +14,7 @@ const HomeSectionThree = () => {
         <h2>Featured Brand Products</h2>
         <h4>
             Collaboratively pursue proactive vortals whereas granular best practices 
-            <br/>Collaboratively promote functionalmarkets through process-centric users.
+            <br/>Collaboratively promote functional markets through process-centric users.
         </h4>
 
 

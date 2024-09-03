@@ -21,7 +21,7 @@ import { FaLinkedin } from "react-icons/fa";
 import Image from 'next/image';
 import logo from './images/logo.png'
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
 import Link from 'next/link';
 
 const Navbar = () => {
@@ -46,7 +46,7 @@ const Navbar = () => {
         <div>
             <div className='myNavBar'>
                 <div className='topNav'>
-                        <p>Welcome to Our Organic Store</p>
+                    <p>Welcome to Our Organic Store</p>
                     <ul>
                         <li><IoMailUnreadOutline />groshop@gmail.com</li>
                         <li><MdOutlineLocationOn />Washington, New York City</li>
@@ -123,12 +123,12 @@ const Navbar = () => {
                             <p><IoCallOutline /></p>
                         </div>
 
-                        
+
                     </div>
                     <div className='bottomNavContact'>
-                            <p className='menu' onClick={handleShowSideBar}><CgMenuGridO /></p>
-                        </div>
-                        <p className='menu2' onClick={handleShowSideBar}><CgMenuGridO /></p>
+                        <p className='menu' onClick={handleShowSideBar}><CgMenuGridO /></p>
+                    </div>
+                    <p className='menu2' onClick={handleShowSideBar}><CgMenuGridO /></p>
                 </div>
             </div>
 
@@ -142,18 +142,20 @@ const Navbar = () => {
                     <div className='aboutDiv'>
                         <h2>About Us</h2>
                         <p className='myP' data-aos="fade-up" data-aos-duration="2000">
-                            Explain to you how all this 
-                            mistaken denouncing pleasure 
-                            and praising pain was born and 
-                            we will give you a complete 
-                            account of the system, and 
-                            expound the actual teachings.
+                            Welcome to our Store, where quality meets style.
+                            We are dedicated to offering a curated selection of
+                            furniture that combines comfort, durability, and design.
+                            Whether you're looking to refresh your living room,
+                            revamp your dining area, or create a cozy bedroom retreat,
+                            we have something for every taste and budget.
+
                         </p>
                         <p className='myP' data-aos="fade-up" data-aos-duration="2000">
-                            Mistaken denouncing pleasure and 
-                            praising pain was born and we will 
-                            give you complete account of the 
-                            system expound.
+                            Our commitment to exceptional craftsmanship and customer satisfaction
+                            ensures that you find the perfect pieces to make your home truly yours.
+                            Explore our collection today and transform your space
+                            with furniture that reflects your unique style
+
                         </p>
 
                         <div data-aos="fade-up" data-aos-duration="2000">
